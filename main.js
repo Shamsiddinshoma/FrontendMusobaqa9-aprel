@@ -12,7 +12,7 @@ loginForm.addEventListener("submit", (e) => {
     username === localStorage.getItem("username") &&
     password === localStorage.getItem("password")
   ) {
-    window.location.href = "";
+    window.location.href = './page/asosiy.html';
   } else {
     alert("Invalid username or password");
   }
