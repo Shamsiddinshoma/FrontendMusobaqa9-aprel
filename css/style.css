@@ -1,0 +1,106 @@
+*{
+    font-family: 'Lilita One', cursive;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.level{
+    background-image: url(../images/bacimgkids.jpg);
+    background-repeat: no-repeat;
+    background-position: 1%;
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+.level-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    color: rgb(0, 217, 255);
+    width: 100%;
+    height: 30%;
+}
+
+.animationtext1{
+    margin-bottom: 50px;
+}
+
+
+
+.level-btn{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.btn1 button{
+    background: rgb(0,93,25);
+background: linear-gradient(90deg, rgb(13, 167, 54) 0%, rgba(14,181,50,1) 100%, rgb(61, 230, 61) 100%);
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.btn2 button{
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+    background: rgb(253,153,29);
+background: linear-gradient(90deg, rgba(253,153,29,1) 50%, rgba(237,191,73,1) 100%);
+}
+.btn3 button{
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(237,73,79,1) 100%);
+}
+
+.btn1 button:hover{
+    margin-bottom: 20px;
+}
+
+.btn2 button:hover{
+    margin-bottom: 20px;
+}
+.btn3 button:hover{
+    margin-bottom: 20px;
+}
+
+.start{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+
+.startbtn{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+
